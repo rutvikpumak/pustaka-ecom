@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://boostmat-ui.netlify.app/components/component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="auth.css">
+    <link rel="stylesheet" href="../home.css">
+</head>
+
+<body>
+
+    <div class="nav-header">
+        <ul class="navbar">
+            <div class="navbar-left">
+                <a href="../home.html">
+                    <h2>Pustaka</h2>
+                </a>
+            </div>
+            <div class="search-container">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" name="search" class="search-bar" placeholder="Search for product" id="">
+            </div>
+            <ul class="navbar-right">
+                <li>
+                    <a href="./login/login.html" target="_blank" class="login-btn">Login</a>
+                </li>
+                <li>
+                    <div class="icon cart-badge">
+                        <a href="./wishlist-manage/wishlist.html">
+                            <i class="fa fa-heart-o "></i>
+                            <div class="notification-icon flex-center">
+                                <span>1</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </li>
+                <li class="nav-cart">
+                    <div class="icon cart-badge">
+                        <a href="./wishlist-manage/wishlist.html">
+                            <i class="fa fa-shopping-cart "></i>
+                            <div class="notification-icon flex-center">
+                                <span>1</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </ul>
+    </div>
+
+    <div class="auth-container flex-center">
+        <div class="auth-main-container flex-center">
+            <div class="auth-title">
+                <h2 class="text-center">Forgot Password ?</h2>
+            </div>
+            <div class="auth-main">
+                <div class="auth-email">
+                    <label for="mail">Email Address</label>
+                    <input placeholder="test@gmail.com" class='text-input' type="text">
+                </div>
+                </div>
+                <div class="primary-btn text-center">
+                    <a href="#" target="_blank" class="link-btn">Reset Password</a>
+                </div>
+                <div class="auth-secondary-btn text-center">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i><a href="./login.html"> Back to Sign In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
