@@ -14,7 +14,7 @@
 
 1. [Home](https://pustaka.netlify.app/)
 2. [Product Listing Page](https://pustaka.netlify.app/product-list/product-list.html)
-3. [Product Listing Page](https://pustaka.netlify.app/single-product/single-product.html)
+3. [Single Product Page](https://pustaka.netlify.app/single-product/single-product.html)
 4. [Filters](https://pustaka.netlify.app/product-list/product-list.html)
 5. [Cart Management](https://pustaka.netlify.app/cart-manage/cart.html)
 6. [Wishlist Management](https://pustaka.netlify.app/wishlist-manage/wishlist.html)
