@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://boostmat-ui.netlify.app/components/component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../fliters/filter.css">
+    <link rel="stylesheet" href="../home.css">
+</head>
+
+<body>
+    <div class="nav-header">
+        <ul class="navbar">
+            <div class="navbar-left">
+                <a href="../index.html">
+                    <h2>Pustaka</h2>
+                </a>
+            </div>
+            <div class="search-container">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" name="search" class="search-bar" placeholder="Search for product" id="">
+            </div>
+            <ul class="navbar-right">
+                <li>
+                    <a href="../user-profile/user-profile.html" target="_blank" class="login-btn">Hi, Admin</a>
+                </li>
+                <li>
+                    <div class="icon cart-badge">
+                        <a href="../wishlist-manage/wishlist.html">
+                            <i class="fa fa-heart-o "></i>
+                            <div class="notification-icon flex-center">
+                                <span>1</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </li>
+                <li class="nav-cart">
+                    <div class="icon cart-badge">
+                        <a href="../cart-manage/cart.html">
+                            <i class="fa fa-shopping-cart "></i>
+                            <div class="notification-icon flex-center">
+                                <span>1</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </ul>
+    </div>
+
+    <div class="product-main-container">
+        <div class="filter-container">
+
+            <div class="filter-head">
+                <h4>Filters</h4>
+                <p class="paragraph-md clr-flt-btn">Clear</p>
+            </div>
+
+            <div class="filter-price">
+                <h4>Price</h4>
+                <div class="flex-gap">
+                    <div class="price-range">
+                        <p>50</p>
+                        <p>150</p>
+                        <p>200</p>
+                    </div>
+                    <input type="range" name="rangeInput" class="slider" min="50" max="200">
+                </div>
+            </div>
+
+            <div class="filter-category">
+                <h4>Category</h4>
+                <div class="flex-gap">
+                    <label class="select-input">
+                        <input type="checkbox" name="light" class="checkbox-input" value="" checked>
+                        <span class="check-desc">Self Help</span>
+                    </label>
+                    <label class="select-input">
+                        <input type="checkbox" name="light" class="checkbox-input" value="">
+                        <span class="check-desc">Fiction</span>
+                    </label>
+                    <label class="select-input">
+                        <input type="checkbox" name="light" class="checkbox-input" value="">
+                        <span class="check-desc">Non Fiction</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-rating">
+                <h4>Rating</h4>
+                <div class="flex-gap">
+                    <label class="select-input">
+                        <input type="radio" name="rating" class="radio-input" value="" checked>
+                        <span class="check-desc">4 Stars & above</span>
+                    </label>
+                    <label class="select-input">
+                        <input type="radio" name="rating" class="radio-input" value="">
+                        <span class="check-desc">3 Stars & above</span>
+                    </label>
+                    <label class="select-input">
+                        <input type="radio" name="rating" class="radio-input" value="">
+                        <span class="check-desc">2 Stars & above</span>
+                    </label>
+                    <label class="select-input">
+                        <input type="radio" name="rating" class="radio-input" value="">
+                        <span class="check-desc">1 Stars & above</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-sort">
+                <h4>Sort by</h4>
+                <div class="flex-gap">
+                    <label class="select-input">
+                        <input type="radio" name="sort" class="radio-input" value="" checked>
+                        <span class="check-desc">Price - Low to High</span>
+                    </label>
+                    <label class="select-input">
+                        <input type="radio" name="sort" class="radio-input" value="">
+                        <span class="check-desc">Price - High to Low</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-list-container">
+            <div class="product-list-header">
+                <h3>Showing All Products</h3>
+                <p class="paragraph-sm">(Showing 12 products)</p>
+            </div>
+
+            <div class="responsive-grid">
+
+                <div class="card">
+                    <a href="../single-product/single-product.html">
+                        <img class="card-img"
+                            src="https://rukminim1.flixcart.com/image/612/612/kwxv98w0/book/l/z/y/do-epic-shit-original-imag9gcfcwfvwtep.jpeg?q=70"
+                            alt="" />
+                    </a>
+                    <span class="card-badge">Best Seller</span>
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">Do Epic Shit</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/jpu324w0/book/0/9/0/believe-in-yourself-original-imafbzz2h7yfg5zz.jpeg?q=70"
+                        alt="" />
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">Believe In Yourself</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/ki96c280-0/book/3/p/n/one-indian-girl-original-imafy2zrymfbtygz.jpeg?q=70"
+                        alt="" />
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">One Indian Girl</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/kokdci80/regionalbooks/t/x/c/zero-to-one-original-imag2zzngtfasecu.jpeg?q=70"
+                        alt="" />
+                    <span class="card-badge">Best Seller</span>
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">Zero To One</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/kufuikw0/book/0/6/q/ikigai-original-imag7kc7q5ugy2km.jpeg?q=70"
+                        alt="" />
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">IKIGAI</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/kgwld3k0/book/1/9/4/rich-dad-poor-dad-original-imafxf885pytvycy.jpeg?q=70"
+                        alt="" />
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">Men Slim Fit Shirt</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/kkprmvk0/book/a/2/v/the-subtle-art-of-not-giving-a-f-ck-original-imagyy42xbahzbzy.jpeg?q=70"
+                        alt="" />
+                    <span class="card-badge">Best Seller</span>
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">Subtle Art of Not Giving Fuck</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/kwxv98w0/book/l/z/y/do-epic-shit-original-imag9gcfcwfvwtep.jpeg?q=70"
+                        alt="" />
+                    <span class="card-badge">Best Seller</span>
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">Do Epic Shit</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/jpu324w0/book/0/9/0/believe-in-yourself-original-imafbzz2h7yfg5zz.jpeg?q=70"
+                        alt="" />
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">Believe In Yourself</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/ki96c280-0/book/3/p/n/one-indian-girl-original-imafy2zrymfbtygz.jpeg?q=70"
+                        alt="" />
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">One Indian Girl</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/kokdci80/regionalbooks/t/x/c/zero-to-one-original-imag2zzngtfasecu.jpeg?q=70"
+                        alt="" />
+                    <span class="card-badge">Best Seller</span>
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">Zero To One</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/kufuikw0/book/0/6/q/ikigai-original-imag7kc7q5ugy2km.jpeg?q=70"
+                        alt="" />
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">IKIGAI</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/kgwld3k0/book/1/9/4/rich-dad-poor-dad-original-imafxf885pytvycy.jpeg?q=70"
+                        alt="" />
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">Men Slim Fit Shirt</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://rukminim1.flixcart.com/image/612/612/kkprmvk0/book/a/2/v/the-subtle-art-of-not-giving-a-f-ck-original-imagyy42xbahzbzy.jpeg?q=70"
+                        alt="" />
+                    <span class="card-badge">Best Seller</span>
+                    <span class="wishlist-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <div class="card-info">
+                        <div class="card-title">
+                            <div>
+                                <h3 class="card-title-header">Subtle Art of Not Giving Fuck</h3>
+                                <p class="card-description">Author Name Here</p>
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="price">
+                            <p class="disc-price">₹850</p>
+                            <p class="actual-price">₹1500</p>
+                            <p class="price-percentage">(50% OFF)</p>
+                        </div>
+                    </div>
+                    <button class="btn default add-cart"><i class="fa fa-shopping-cart "></i> Add to Cart</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
