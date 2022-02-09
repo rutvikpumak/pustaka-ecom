@@ -64,6 +64,9 @@ li {
     opacity: 0.8;
 }
 
+.navbar-right li img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
+}
 .nav-cart {
     display: flex;
     align-items: center;
