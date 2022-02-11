@@ -59,3 +59,9 @@
     max-width: 80%;
     padding: 0.25rem;
 }
+
+@media screen and (max-width:500px) {
+    .wishlist-item {
+        width: inherit;
+    }
+}

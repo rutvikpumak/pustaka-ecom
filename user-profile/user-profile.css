@@ -136,3 +136,19 @@
 .address-form-btn .btn {
   font-size: 1rem;
 }
+
+
+@media screen and (max-width:500px) {
+  .tabs label {
+    padding: 0.5rem 1rem;
+  }
+
+  .tabs {
+    width: 300px;
+  }
+
+
+  .address-form-input {
+    width: inherit;
+  }
+}

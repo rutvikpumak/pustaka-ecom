@@ -94,3 +94,13 @@
 .first-last-wrapper .text-input{
    width: 100%;
 }
+
+@media screen and (max-width:500px) {
+    .auth-main-container {
+        width:20rem;
+        padding: 1rem;
+    }
+    .auth-main{
+        gap:1rem
+    }
+}

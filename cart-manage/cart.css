@@ -1,6 +1,6 @@
 .cart-container {
     background-color: var(--lynxWhite);
-    height: 90vh;
+    /* height:100vh; */
 }
 
 .cart-main-container {
@@ -11,6 +11,8 @@
 
 .cart-manage {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 5rem;
 }
 
@@ -68,4 +70,24 @@
 .coupon {
     padding: 0.5rem 0 1rem 0;
     border-bottom: 1px solid var(--lightGrey);
+}
+
+
+@media screen and (max-width:500px) {
+
+    .cart-manage {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .horizontal-container,
+    .price-details {
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+
+    .price-details ul {
+        gap: 0rem;
+    }
+
 }

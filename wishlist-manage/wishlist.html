@@ -18,43 +18,51 @@
 
     <div class="nav-header">
         <ul class="navbar">
-            <div class="navbar-left">
-                <a href="../index.html">
-                    <h2>Pustaka</h2>
-                </a>
+
+            <div class="navbar-main ">
+                <div class="navbar-left">
+                    <a href="../index.html">
+                        <h2>Pustaka</h2>
+                    </a>
+                </div>
+                <div class="search-container">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="text" name="search" class="search-bar" placeholder="Search for product" id="">
+                </div>
+                <ul class="navbar-right">
+                    <li>
+                        <a href="../user-profile/user-profile.html">
+                            <img src="../images/logo.png"></a>
+                    </li>
+                    <li>
+                        <div class="icon cart-badge">
+                            <a href="../wishlist-manage/wishlist.html">
+                                <i class="fa fa-heart-o "></i>
+                                <div class="notification-icon flex-center">
+                                    <span>1</span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </li>
+                    <li class="nav-cart">
+                        <div class="icon cart-badge">
+                            <a href="../cart-manage/cart.html">
+                                <i class="fa fa-shopping-cart "></i>
+                                <div class="notification-icon flex-center">
+                                    <span>1</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="search-container">
+
+            <div class="search-container search-mob">
                 <i class="fa fa-search" aria-hidden="true"></i>
                 <input type="text" name="search" class="search-bar" placeholder="Search for product" id="">
             </div>
-            <ul class="navbar-right">
-                <li>
-                    <a href="../user-profile/user-profile.html" target="_blank"><img src="../images/logo.png"></a>
-                </li>
-                <li>
-                    <div class="icon cart-badge">
-                        <a href="wishlist.html">
-                            <i class="fa fa-heart-o "></i>
-                            <div class="notification-icon flex-center">
-                                <span>1</span>
-                            </div>
-                        </a>
-                    </div>
-
-                </li>
-                <li class="nav-cart">
-                    <div class="icon cart-badge">
-                        <a href="../cart-manage/cart.html">
-                            <i class="fa fa-shopping-cart "></i>
-                            <div class="notification-icon flex-center">
-                                <span>1</span>
-                            </div>
-                        </a>
-                    </div>
-                </li>
-            </ul>
         </ul>
-
     </div>
 
     <div class="wishlist-container">
