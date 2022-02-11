@@ -8,7 +8,7 @@
 ## What is Pustaka?
 
 - Pustaka is an idea for an e-commerce web app for books. It has the must have screens required in an e-commerce website.
-- Responsive? (Coming Soon)
+- Responsive ✅
 
 ## Features?
 
@@ -86,6 +86,13 @@ The [user profile](https://pustaka.netlify.app/user-profile/user-profile.html) p
 * Settings (LogOut)
 
 ![Animation2](https://user-images.githubusercontent.com/58260342/153249603-1f6adff3-f5b2-4f70-9736-5e19755663e1.gif)
+
+<div align="center">
+  
+# Responsivness
+  
+![Animation3](https://user-images.githubusercontent.com/58260342/153588080-daa9236b-7122-41ef-8b67-d358bf87d27a.gif)
+</div>
 
 <br/>
 <br/>
