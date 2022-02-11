@@ -8,7 +8,7 @@
 ## What is Pustaka?
 
 - Pustaka is an idea for an e-commerce web app for books. It has the must have screens required in an e-commerce website.
-- Responsive? (Comming Soon)
+- Responsive? (Coming Soon)
 
 ## Features?
 
@@ -46,7 +46,7 @@
 
 ## Single Product Page
 
-* A page full of [products](https://pustaka.netlify.app/single-product/single-product.html) along with extra details about product.
+* A page full of [product information](https://pustaka.netlify.app/single-product/single-product.html) along with extra detail.
 
 ![image](https://user-images.githubusercontent.com/58260342/153249868-89524970-56af-4977-ac10-e3b16c47fce3.png)
 
@@ -71,9 +71,9 @@ It also has button Move to Cart.
 
 The [authentication](https://pustaka.netlify.app/auth/login.html) pages can be accessed by clicking the user icon on the navbar. It contains:
 
-- Login
-- Signup
-- Reset Password
+* Login
+* Signup
+* Reset Password
 
 ![Animation](https://user-images.githubusercontent.com/58260342/153248168-0f134cb4-bf46-4239-b8e3-ed1b18985e54.gif)
   
@@ -81,9 +81,9 @@ The [authentication](https://pustaka.netlify.app/auth/login.html) pages can be a
 
 The [user profile](https://pustaka.netlify.app/user-profile/user-profile.html) pages can be accessed by clicking the user icon on the navbar. It contains:
 
-- User Details
-- Address Managment
-- Settings (LogOut)
+* User Details
+* Address Managment
+* Settings (LogOut)
 
 ![Animation2](https://user-images.githubusercontent.com/58260342/153249603-1f6adff3-f5b2-4f70-9736-5e19755663e1.gif)
 
