@@ -145,7 +145,7 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 31.25rem;
 }
 
 .home-page-text {
@@ -222,6 +222,22 @@ li {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.footer {
+    margin-top: 3rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 0 0.5rem 0.5rem;
+    background-color: var(--darkBlue);
+    color: var(--white);
+    letter-spacing: 0.5px;
+}
+
+.icon-bar {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width:500px){
 
     .home-container {
@@ -254,7 +270,8 @@ li {
     }
 
     .shop-now-btn{
-        padding: 0.3rem 0.5rem;
+        padding: 0.4rem 0.5rem;
+        font-size: 0.7rem;
     }
 
     .search-container {
@@ -276,7 +293,7 @@ li {
     }
 
     .bg-img-container {
-        height: 400px
+        height: 25rem
     }
 }
 
