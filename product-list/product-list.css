@@ -1,6 +1,6 @@
 .product-main-container {
     display: flex;
-    flex-grow: 1;;
+    flex-grow: 1;
 }
 
 .product-list-container {
@@ -38,6 +38,8 @@
     position: fixed;
     left: 0;
     overflow-y: auto;
+    z-index: 5;
+    background-color: var(--lynxWhite);
 }
 
 .filter-container>div>h4 {
@@ -115,15 +117,32 @@
     color: var(--danger);
 }
 
+.drawer-hamberg-btn{
+    display: none;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
 
 @media screen and (max-width: 950px) {
 
-    .filter-container {
-        display: none;
+    .trans-on {
+        left: 0;
+        transition: left 0.5s ease-out;
+    }
+    
+    .trans-off {
+        left: -30.875rem;
+        transition: left 0.5s ease-out;
+    }
+    
+    .drawer-hamberg-btn{
+        display: block; 
     }
 
     .product-list-container {
-        margin-left: 1rem;
+        margin-left: 0.5rem;
+        z-index: 2;
     }
 }
 
@@ -171,5 +190,9 @@
 
     .card-badge {
         font-size: 0.5rem;
+    }
+
+    .filter-container{
+        width: 220px;
     }
 }
