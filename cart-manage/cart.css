@@ -1,6 +1,6 @@
 .cart-container {
     background-color: var(--lynxWhite);
-    /* height:100vh; */
+    flex-grow: 1;
 }
 
 .cart-main-container {

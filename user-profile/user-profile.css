@@ -1,6 +1,6 @@
 .profile-container {
   background-color: var(--lynxWhite);
-  height: 90vh;
+  flex-grow: 1;
 }
 
 .profile-main-container {

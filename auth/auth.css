@@ -1,6 +1,6 @@
 /*  */
 .auth-container {
-    height: 90vh;
+    flex-grow: 1;
     flex-direction: column;
 }
 
